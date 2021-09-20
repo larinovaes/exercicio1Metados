@@ -13,6 +13,7 @@ public class Carro {
     String cor;
     double valorDoCarro;
     double peso;
+    double daDesconto;
 
     public Carro(String nome,String frabicante, String cor, double valorDoCarro,double peso){
         this.nome = nome;
@@ -21,11 +22,19 @@ public class Carro {
         this.valorDoCarro = valorDoCarro;
         this.peso = peso;
     }
+
     public void mostrarDados(){
         System.out.println("Nome do carro escolhido: " +nome);
         System.out.println("Fabricante: " + frabicante);
         System.out.println("Cor: " + cor);
         System.out.println("Valor do carro: " + valorDoCarro);
         System.out.println("peso: " + peso + "kg");
+        System.out.println("Com desconto: ");
+    }
+    public void pintar(String pintando){
+        cor = "Vermelho";
+    }
+    public void daDesconto(double daDesconto){
+        valorDoCarro = valorDoCarro - daDesconto;
     }
 }
