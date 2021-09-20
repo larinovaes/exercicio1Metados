@@ -28,5 +28,4 @@ public class Carro {
         System.out.println("Valor do carro: " + valorDoCarro);
         System.out.println("peso: " + peso + "kg");
     }
-
 }
