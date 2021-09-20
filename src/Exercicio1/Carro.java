@@ -26,7 +26,7 @@ public class Carro {
         System.out.println("Fabricante: " + frabicante);
         System.out.println("Cor: " + cor);
         System.out.println("Valor do carro: " + valorDoCarro);
-        System.out.println("peso: " + peso + "toneladas");
+        System.out.println("peso: " + peso + "kg");
     }
 
 }
