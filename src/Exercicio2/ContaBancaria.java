@@ -2,9 +2,9 @@ package Exercicio2;
 
 public class ContaBancaria {
 
-    int numeroDaConta;
-    double saldo;
-    String nomeDoCorrentista;
+    private int numeroDaConta;
+    private double saldo;
+    private String nomeDoCorrentista;
 
     public ContaBancaria(String nomeDoCorrentista, int numeroDaConta,double saldo){
         this.nomeDoCorrentista = nomeDoCorrentista;
@@ -16,6 +16,7 @@ public class ContaBancaria {
         System.out.println("Número da conta: " + numeroDaConta);
         System.out.println("Saldo R$: " + saldo);
     }
+
     public void deposito(double valorDedepoisto){
         saldo = saldo + valorDedepoisto;
     }
