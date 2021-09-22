@@ -2,16 +2,22 @@ package exercicio03;
 
 
 public class Elevador {
-    int andarAtual;
-    int totalDePassageiros;
-    int qtdDeAndares;
-    int capacidade;
+    private int andarAtual;
+    private int totalDePassageiros;
+    private int qtdDeAndares;
+    private int capacidade;
 
     public Elevador(int andarAtual, int totalDePassageiros, int qtdDeAndares, int capacidade) {
         this.andarAtual = andarAtual;
         this.totalDePassageiros = totalDePassageiros;
         this.qtdDeAndares = qtdDeAndares;
         this.capacidade = capacidade;
+    }
+    public int getAndarAtual(){
+        return andarAtual;
+    }
+    public void setAndarAtual(int andarAtual1){
+        andarAtual1 = andarAtual;
     }
 
     public void entra(int quantidadeDePessoas) {
