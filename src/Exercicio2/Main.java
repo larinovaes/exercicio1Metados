@@ -7,11 +7,15 @@ public class Main {
         ContaBancaria dados = new ContaBancaria("Larissa Silva Novais", 1234, 0);
         System.out.println("--- Conta Corrente ---");
         dados.extrato();
-        System.out.println("------------------------");
-        dados.deposito(1000);
+        System.out.println("-----------------------");
+        dados.setNumeroDaConta(dados.getNumeroDaConta());
         dados.extrato();
-        System.out.println("------------------------");
-        dados.saque(500);
+        System.out.println("------------------------------");
+        dados.deposito(300);
+        dados.setSaldo(dados.getSaldo());
+        dados.extrato();
+        System.out.println("---------------------------------");
+        dados.setNomeDoCorrentista("Caique");
         dados.extrato();
     }
 }

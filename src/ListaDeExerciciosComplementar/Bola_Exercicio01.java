@@ -18,9 +18,11 @@ public class Bola_Exercicio01 {
         this.nome = nome;
     }
     public String getCor(){
+
         return cor;
     }
     public void setCor(String mudarAcor){
+
         cor = mudarAcor;
     }
 

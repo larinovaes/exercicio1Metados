@@ -11,6 +11,24 @@ public class ContaBancaria {
         this.numeroDaConta = numeroDaConta;
         this.saldo = saldo;
     }
+    public int getNumeroDaConta(){
+        return numeroDaConta;
+    }
+    public void setNumeroDaConta( int numeroDaConta1){
+        numeroDaConta1 = numeroDaConta;
+    }
+    public double getSaldo(){
+        return saldo;
+    }
+    public void setSaldo( double saldo1){
+        saldo1 = saldo;
+    }
+    public String getNomeDoCorrentista(){
+        return nomeDoCorrentista;
+    }
+    public void setNomeDoCorrentista(String nomeAtualizado){
+        nomeDoCorrentista = nomeAtualizado;
+    }
     public void extrato(){
         System.out.println("Nome do corretista: " + nomeDoCorrentista);
         System.out.println("Número da conta: " + numeroDaConta);

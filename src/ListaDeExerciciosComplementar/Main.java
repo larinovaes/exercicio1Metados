@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Bola_Exercicio01 dados = new Bola_Exercicio01("Jabulani", "azul", "Redonda", "Plastico");
         dados.mostrarDados();
-        System.out.println("---------------------");
+        System.out.println("--------------------------------");
 
         Scanner leitor = new Scanner(System.in);
 
