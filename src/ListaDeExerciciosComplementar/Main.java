@@ -9,16 +9,15 @@ public class Main {
         System.out.println("---------------------");
 
         Scanner leitor = new Scanner(System.in);
-        System.out.println("Qual nome deseja colocar na bola?");
-        String nome = leitor.nextLine();
-
-        dados.setNome(nome);
-        System.out.println("Nome da bola atual" + dados.getNome());
 
         System.out.println("Qual cor deseja para sua bola?");
         String mudarCor = leitor.nextLine();
 
         dados.setCor(mudarCor);
         System.out.println("Cor atual da bola: " + dados.getCor());
+        System.out.println("---------------------------------");
+        dados.setCircunferencia("Redonda");
+        dados.setMaterial("Plastico");
+        dados.mostrarDados();
     }
 }

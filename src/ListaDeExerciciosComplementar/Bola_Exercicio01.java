@@ -17,17 +17,18 @@ public class Bola_Exercicio01 {
         this.material = material;
         this.nome = nome;
     }
-    public String getNome(){
-        return nome;
-    }
-    public void setNome(String nome1){
-        nome = nome1;
-    }
     public String getCor(){
         return cor;
     }
     public void setCor(String mudarAcor){
         cor = mudarAcor;
+    }
+
+    public void setCircunferencia(String tipoCircunferencia){
+        circunferencia = tipoCircunferencia;
+    }
+    public void setMaterial(String tipoDeMaterial){
+        material = tipoDeMaterial;
     }
     public void mostrarDados(){
         System.out.println("Nome da Bola: " + nome);
