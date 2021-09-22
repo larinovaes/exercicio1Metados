@@ -1,4 +1,4 @@
-package ListaDeExerciciosComplementar;
+package ListaDeExerciciosComplementar.Exercicio01;
 
 import java.util.Scanner;
 

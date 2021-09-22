@@ -1,4 +1,4 @@
-package Exercicio2;
+package AulaDeEncaplulamento.Exercicio2;
 
 public class ContaBancaria {
 

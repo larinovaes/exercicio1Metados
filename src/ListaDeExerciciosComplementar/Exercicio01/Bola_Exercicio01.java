@@ -1,4 +1,4 @@
-package ListaDeExerciciosComplementar;
+package ListaDeExerciciosComplementar.Exercicio01;
 
 /**
  * Classe Bola: Crie uma chamada Jabulani
