@@ -1,6 +1,7 @@
-package AulaDeHeranca;
+package AulaDeHeranca.Exemplo01Heranca;
 
-public class Professor extends Funcionarios{
+
+public class Professor extends Funcionarios {
     private String diciplinas;
 
     public Professor(String nome, String cpf, String ctps, double salario, String diciplinas) {

@@ -1,6 +1,7 @@
-package AulaDeHeranca;
+package AulaDeHeranca.Exemplo01Heranca;
 
-public class TecAdm extends Funcionarios{
+
+public class TecAdm extends Funcionarios {
     private String administra;
 
     public TecAdm(String nome, String cpf, String ctps, double salario, String administra) {

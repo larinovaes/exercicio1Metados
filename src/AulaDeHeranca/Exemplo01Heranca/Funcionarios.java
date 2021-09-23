@@ -1,4 +1,4 @@
-package AulaDeHeranca;
+package AulaDeHeranca.Exemplo01Heranca;
 
 public class Funcionarios {
     private String nome;
