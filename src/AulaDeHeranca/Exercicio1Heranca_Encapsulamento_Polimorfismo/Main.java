@@ -12,6 +12,6 @@ public class Main {
 
         //imprimindo administrador
       Administrador administrador = new Administrador("Pedro","R. São Carlos - SP","(11)4567-8954",56,2499,120,300);
-        System.out.println(administrador.mostrarDadosAdministrador() + "Salario Bruto: R$" + administrador.calcularSalario());
+        System.out.println(administrador.mostrarDadosAdministrador() + "\nSalario Bruto: R$" + administrador.calcularSalario());
     }
 }
