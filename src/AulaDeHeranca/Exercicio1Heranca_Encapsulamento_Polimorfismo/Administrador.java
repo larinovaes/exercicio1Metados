@@ -20,9 +20,9 @@ public class Administrador extends Colaborador{
     @Override
     //metado para calcular a ajuda de custo junto ao salario e imposto
     public double calcularSalario(){
-        double salarioBruto = getSalarioBase() - getImposto();
-        salarioBruto = salarioBruto + ajudaDeCusto;
-        return salarioBruto;
+        double salarioLiquido = getSalarioBase() - getImposto();
+        salarioLiquido = salarioLiquido + ajudaDeCusto;
+        return salarioLiquido;
     }
     public String mostrarDadosAdministrador(){
         String dados = "\nNome: " +getNome() + "\nEndereço: "+ getEndereco() +

@@ -63,7 +63,7 @@ public class Pessoa {
         return  getPeso();
     }
     public double crescer(){
-       double crescendo = getIdade() + 0.5;
+       double crescendo = getAltura() + 0.5;
        return crescendo;
     }
     public String retornarDados(){

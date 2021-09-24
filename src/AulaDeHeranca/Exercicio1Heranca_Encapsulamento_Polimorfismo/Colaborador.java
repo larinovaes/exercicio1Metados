@@ -47,7 +47,7 @@ public class Colaborador extends Pessoa{
     public String mostrarDadosColaborador(){
         String dados = "\nNome: " +getNome() + "\nEndereço: "+ getEndereco() +
                 "\nTelefone: " + getTelefone() + "\nSalario Base: R$" + getSalarioBase() +
-                "\nImposto: R$" + getImposto() + "\nSalario Bruto: R$";
+                "\nImposto: R$" + getImposto() + "\nSalario Liquido: R$";
         return dados;
     }
 }
