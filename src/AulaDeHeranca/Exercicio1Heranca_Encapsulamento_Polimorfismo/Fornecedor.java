@@ -38,6 +38,7 @@ public class Fornecedor extends Pessoa{
         double saldoTodal = valorCredito - valorDivida;
         return saldoTodal;
     }
+    // retornando dados
     public String retornarDados(){
         String dadosFornecedor = "\nNome: " +getNome() + "\nEndereço: "+ getEndereco() +
                 "\nTelefone: " + getTelefone() + "\nValor da divida: R$" + getValorDivida() +
