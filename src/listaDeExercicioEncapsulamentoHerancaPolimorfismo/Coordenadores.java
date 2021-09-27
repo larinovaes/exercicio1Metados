@@ -8,7 +8,6 @@ public class Coordenadores extends Funcionarios{
 
     public Coordenadores(String nome, String cpf, String orgaoDeLotacao, int numeroDeregistro, double salario) {
         super(nome, cpf, orgaoDeLotacao, numeroDeregistro, salario);
-        this.professoresSuper = professoresSuper;
     }
 
     public void adicionandoProf(Professores prof){
